@@ -90,7 +90,7 @@ resource "aws_sns_topic" "ps_assign" {
 resource "aws_sns_topic_subscription" "rocco" {
   topic_arn = aws_sns_topic.ps_assign.arn
   protocol  = "email"
-  endpoint  = "fprasca26@gmail.com"
+  endpoint  = "name@gmail.com"
 }
 
 resource "aws_sns_topic_policy" "default" {
